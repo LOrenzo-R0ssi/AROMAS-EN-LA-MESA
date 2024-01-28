@@ -1,0 +1,100 @@
+[
+    {
+      "title": "Spaghetti Bolognese",
+      "origin": "Italy",
+      "ingredients": "ground beef, onion, garlic, tomato paste, canned tomatoes, beef broth, red wine, dried oregano, dried basil, salt, black pepper, spaghetti",
+      "recipe": "In a large pot, cook the ground beef over medium heat until browned. Add the onion and garlic and cook until the onion is translucent. Stir in the tomato paste, canned tomatoes, beef broth, red wine, oregano, basil, salt, and pepper. Simmer for at least 1 hour, stirring occasionally. Cook the spaghetti according to package instructions. Serve the sauce over the cooked spaghetti.",
+      "description": "A classic Italian pasta dish that is loved worldwide."
+    },
+    {
+      "title": "Chicken Tikka Masala",
+      "origin": "India",
+      "ingredients": "boneless chicken, yogurt, lemon juice, garlic, ginger, ground cumin, ground coriander, garam masala, paprika, salt, black pepper, butter, tomato sauce, heavy cream",
+      "recipe": "In a bowl, combine the yogurt, lemon juice, garlic, ginger, cumin, coriander, garam masala, paprika, salt, and pepper. Add the chicken and marinate for at least 1 hour. In a large pan, melt the butter and cook the chicken until browned. Stir in the tomato sauce and simmer for 20 minutes. Stir in the heavy cream and simmer for an additional 10 minutes. Serve with rice or naan bread.",
+      "description": "A popular Indian dish with tender chicken in a creamy tomato sauce."
+    },
+    {
+      "title": "Beef Stroganoff",
+      "origin": "Russia",
+      "ingredients": "beef sirloin, onion, garlic, mushrooms, beef broth, sour cream, Dijon mustard, Worcestershire sauce, salt, black pepper, egg noodles",
+      "recipe": "In a large skillet, cook the beef over medium heat until browned. Remove the beef from the skillet and set aside. In the same skillet, cook the onion, garlic, and mushrooms until softened. Stir in the beef broth, sour cream, mustard, Worcestershire sauce, salt, and pepper. Return the beef to the skillet and simmer for 15 minutes. Serve over cooked egg noodles.",
+      "description": "A hearty Russian dish with tender beef and a creamy mushroom sauce."
+    },
+    {
+      "title": "Tacos",
+      "origin": "Mexico",
+      "ingredients": "ground beef, onion, garlic, chili powder, ground cumin, paprika, salt, black pepper, flour tortillas, lettuce, tomato, cheese, salsa, sour cream",
+      "recipe": "In a large pan, cook the ground beef over medium heat until browned. Add the onion and garlic and cook until the onion is translucent. Stir in the chili powder, cumin, paprika, salt, and pepper. Cook for an additional 5 minutes. Warm the tortillas in a dry skillet. Fill the tortillas with the beef mixture, lettuce, tomato, cheese, salsa, and sour cream.",
+      "description": "A popular Mexican dish with seasoned ground beef and a variety of toppings."
+    },
+    {
+      "title": "Chicken Parmesan",
+      "origin": "Italy",
+      "ingredients": "boneless chicken, bread crumbs, Parmesan cheese, eggs, flour, olive oil, marinara sauce, mozzarella cheese, basil",
+      "recipe": "Preheat the oven to 375°F (190°C). In a shallow dish, combine the bread crumbs and Parmesan cheese. In another dish, beat the eggs. Dip the chicken into the flour, then the eggs, and finally the bread crumb mixture. In a large skillet, heat the olive oil and cook the chicken until browned. Place the chicken in a baking dish, top with marinara sauce, mozzarella cheese, and basil. Bake for 20 minutes, or until the cheese is melted and bubbly.",
+      "description": "A classic Italian dish with breaded chicken topped with marinara sauce and melted cheese."
+    },
+    {
+      "title": "Pad Thai",
+      "origin": "Thailand",
+      "ingredients": "rice noodles, shrimp, tofu, eggs, garlic, shallots, fish sauce, tamarind paste, sugar, chili powder, lime, peanuts, bean sprouts, green onions",
+      "recipe": "Soak the rice noodles in cold water for 30 minutes, then drain. In a wok, heat oil over medium heat and cook the garlic and shallots until fragrant. Add the shrimp, tofu, and eggs and cook until the shrimp is pink and the eggs are set. Add the noodles, fish sauce, tamarind paste, sugar, and chili powder. Stir-fry until well combined. Serve with lime wedges, peanuts, bean sprouts, and green onions.",
+      "description": "A popular Thai stir-fried noodle dish with a balance of sweet, sour, and salty flavors."
+    },
+    {
+      "title": "Hamburger",
+      "origin": "United States",
+      "ingredients": "ground beef, salt, black pepper, hamburger buns, lettuce, tomato, onion, pickles, ketchup, mustard",
+      "recipe": "In a bowl, season the ground beef with salt and pepper. Shape the beef into patties. Cook the patties on a grill or stovetop until desired doneness. Toast the hamburger buns and assemble the burgers with lettuce, tomato, onion, pickles, ketchup, and mustard.",
+      "description": "A classic American sandwich with a grilled beef patty and various toppings."
+    },
+    {
+      "title": "Miso Soup",
+      "origin": "Japan",
+      "ingredients": "dashi stock, miso paste, tofu, seaweed, green onions",
+      "recipe": "In a pot, bring the dashi stock to a boil. Reduce the heat to low and whisk in the miso paste until dissolved. Add the tofu and seaweed and simmer for 2-3 minutes. Serve hot, garnished with green onions.",
+      "description": "A traditional Japanese soup made with fermented soybean paste and various ingredients."
+    },
+    {
+      "title": "Pasta Carbonara",
+      "origin": "Italy",
+      "ingredients": "spaghetti, bacon, eggs, Parmesan cheese, black pepper, salt",
+      "recipe": "Cook the spaghetti according to package instructions. In a skillet, cook the bacon until crispy. In a bowl, whisk together the eggs, Parmesan cheese, salt, and pepper. Drain the spaghetti and immediately toss with the egg mixture. The heat from the pasta will cook the eggs. Stir in the bacon. Serve hot.",
+      "description": "A classic Italian pasta dish with a creamy egg and cheese sauce."
+    },
+    {
+      "title": "Sushi",
+      "origin": "Japan",
+      "ingredients": "sushi rice, nori seaweed, fish or seafood, vegetables, soy sauce, wasabi, pickled ginger",
+      "recipe": "Prepare the sushi rice according to package instructions. Lay a sheet of nori seaweed on a bamboo sushi mat. Wet your hands and spread a thin layer of rice on the nori, leaving a border at the top. Place your choice of fish, seafood, or vegetables on the rice. Roll the sushi tightly using the bamboo mat. Slice the sushi into bite-sized pieces. Serve with soy sauce, wasabi, and pickled ginger.",
+      "description": "A traditional Japanese dish with vinegared rice and various toppings."
+    },
+    {
+      "title": "Chicken Noodle Soup",
+      "origin": "United States",
+      "ingredients": "chicken, onion, carrots, celery, garlic, chicken broth, egg noodles, thyme, salt, black pepper",
+      "recipe": "In a large pot, cook the chicken until browned. Add the onion, carrots, celery, and garlic and cook until the vegetables are softened. Stir in the chicken broth, egg noodles, thyme, salt, and pepper. Simmer for 15-20 minutes, or until the noodles are tender. Serve hot.",
+      "description": "A comforting American soup with chicken, vegetables, and noodles."
+    },
+    {
+      "title": "Gazpacho",
+      "origin": "Spain",
+      "ingredients": "tomatoes, cucumber, bell pepper, onion, garlic, olive oil, red wine vinegar, salt, black pepper, bread",
+      "recipe": "In a blender, combine the tomatoes, cucumber, bell pepper, onion, garlic, olive oil, and vinegar. Blend until smooth. Season with salt and pepper. Refrigerate for at least 2 hours. Serve cold, garnished with croutons or bread.",
+      "description": "A refreshing Spanish soup made with raw vegetables."
+    },
+    {
+      "title": "Peking Duck",
+      "origin": "China",
+      "ingredients": "whole duck, salt, honey, soy sauce, hoisin sauce, pancakes, cucumber, scallions",
+      "recipe": "Clean and pat dry the duck. Rub the duck with salt and honey. Hang the duck to air dry for at least 24 hours. Preheat the oven to 350°F (175°C). Roast the duck for 1-2 hours, or until the skin is crispy and the meat is tender. In a small bowl, mix together the soy sauce and hoisin sauce. Serve the duck with pancakes, cucumber, scallions, and the sauce.",
+      "description": "A famous Chinese dish with tender roasted duck and savory pancakes."
+    },
+    {
+      "title": "Ratatouille",
+      "origin": "France",
+      "ingredients": "eggplant, zucchini, bell pepper, onion, garlic, tomatoes, olive oil, thyme, basil, salt, black pepper",
+      "recipe": "Preheat the oven to 375°F (190°C). In a baking dish, layer the sliced eggplant, zucchini, bell pepper, onion, and garlic. Top with sliced tomatoes. Drizzle with olive oil and sprinkle with thyme, basil, salt, and pepper. Cover with foil and bake for 45 minutes. Uncover and bake for an additional 15 minutes, or until the vegetables are tender.",
+      "description": "A classic French vegetable dish with layers of colorful produce."
+    }
+  ]

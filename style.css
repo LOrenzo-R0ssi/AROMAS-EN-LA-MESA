@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header{
+    background-image: linear-gradient(
+        0deg,
+         rgba(0,0,0,0.3),
+         rgba(0,0,0,0.3)
+        )
+        ,url("media/header-2.jpg");
+    background-size: cover;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 18px -5px rgba(0,0,0,0.5);
+}
+
+.logo{
+    width: 260px;
+    filter: drop-shadow(0px 0px 4px rgba(0,0,0,0.64));
+   
+}
+
+body{
+  background-color: #f8f8f8;
+  
+}
+
+.inputSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.resultados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    flex-wrap: wrap;
+    margin: 10px 80px;
+}
+
+
+
+
+/* INPUT UIVERSE */
+/* From uiverse.io by @satyamchaudharydev */
+/* removing default style of button */
+
+.form button {
+    border: none;
+    background: none;
+    color: #8b8ba7;
+  }
+  /* styling of whole input container */
+  .form {
+    --timing: 0.3s;
+    --width-of-input: 50vw;
+    --height-of-input: 45px;
+    --border-height: 2px;
+    --input-bg: #fff;
+    --border-color: #0647ae;
+    --border-radius: 30px;
+    --after-border-radius: 0px;
+    position: relative;
+    width: var(--width-of-input);
+    height: var(--height-of-input);
+    display: flex;
+    align-items: center;
+    padding-inline: 0.8em;
+    border-radius: var(--border-radius);
+    transition: border-radius 0.5s ease;
+    background: var(--input-bg,#fff);
+    box-shadow: 2px 2px 10px -2px rgba(0,0,0,0.4);
+  }
+  /* styling of Input */
+  .input {
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    border: none;
+  }
+  /* styling of animated border */
+  .form:before {
+    content: "";
+    position: absolute;
+    background: var(--border-color);
+    transform: scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: var(--border-height);
+    left: 0;
+    bottom: 0;
+    transition: transform var(--timing) ease;
+  }
+  /* Hover on Input */
+  .form:focus-within {
+    border-radius: var(--after-border-radius);
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  /* here is code of animated border */
+  .form:focus-within:before {
+    transform: scale(1);
+  }
+  /* styling of close button */
+  /* == you can click the close button to remove text == */
+  .reset {
+    border: none;
+    background: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+  /* close button shown when typing */
+  input:not(:placeholder-shown) ~ .reset {
+    opacity: 1;
+    visibility: visible;
+  }
+  /* sizing svg icons */
+  .form svg {
+    width: 17px;
+    margin-top: 3px;
+  }
+
+  .submit{
+    background-color: #002E78;
+    padding: 7px 20px;
+    border-radius: 15px;
+    border: none;
+    color: #e1e1e1;
+    font-weight: 600;
+    margin-left: 17px;
+    transition: 0.4s;
+  }
+
+  .submit:hover{
+    background-color: #031f4d;
+    color: #ffffff;
+  }
+
+  /*CARD RECETA*/
+
+  .card {
+    width: 250px;
+    height: 315px;
+    border-radius: 20px;
+    background: #fbfbfb;
+    position: relative;
+    padding: 1.8rem;
+    border: 1px solid #a5a7aa;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    box-shadow: 2px 2px 15px -9px rgba(0,0,0,0.7);
+   }
+   
+   .card-details {
+    color: rgb(41, 41, 41);
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+   }
+   
+   .card-img{
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px -6.7px rgba(2, 65, 125, 0.7);
+    border: 1px solid #9c9fa0b3;
+
+   }
+
+   .card-button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #002E78;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+   }
+   
+   .text-body {
+    color: rgb(134, 134, 134);
+   }
+   
+   /*Text*/
+   .text-title {
+    font-size: 1.5em;
+    font-weight: bold;
+   }
+   
+   /*Hover*/
+   .card:hover {
+    border: 1px solid #002E78;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .card:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+   }
+
+
+/* Receta seleccionada */
+.recipe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin: 10px 120px;
+  padding: 50px 100px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 20px -14px rgba(0, 0, 0, 0.367);
+
+}
+
+.title-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tituloRecipe{
+  margin-bottom: 20px;
+}
+
+.imgRecipe{
+  width: 120%;
+  border-radius: 10px;
+  box-shadow: 9px 9px 20px -14px rgba(0, 0, 0, 0.5);
+  border: 1px solid #40404045;
+}
+
+.recipeInfo{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.instructionsRecipe{
+  margin-bottom: 20px;
+}
+
+.ingredientsRecipe{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 15px;
+  list-style: square;
+}
+
+/* Footer */
+
+footer{
+  background-color: #ffffff;
+  box-shadow: 1px -5px 20px -10px rgba(0,0,0,0.3);
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+}
+
+.logoFooter{
+  width: 170px;
+}
+
+.redes ul{
+  display: flex;
+  column-gap: 16px;
+}
+
+li{
+  width: 43px;
+  height: 43px;
+  list-style: none;
+  border-radius: 50%;
+  border: 3px solid #343434;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li a{
+  color: #343434;
+}
+
+/* TWITTER */
+.redes ul li:hover.twitter {
+  border: 3px solid #00aced;
+  box-shadow:0 0 7px #00aced;
+  transition: all 0.3s ease-in-out;
+}
+
+.redes ul li:hover .fa-twitter {
+  color: #00aced;
+  text-shadow:0 0 3px #00aced;
+  transition: all 0.3s ease-in-out;
+}
+
+/* INSTAGRAM */
+.redes ul li:hover.instagram {
+  border: 3px solid #E1306C;
+  box-shadow:0 0 7px #E1306C;
+  transition: all 0.3s ease-in-out;
+}
+
+.redes ul li:hover .fa-instagram {
+  color: #E1306C;
+  text-shadow:0 0 3px #E1306C;
+  transition: all 0.3s ease-in-out;
+}
+
+/* FACEBOOK */
+.redes ul li:hover.facebook {
+  border: 3px solid #4267B2;
+  box-shadow:0 0 7px #4267B2;
+  transition: all 0.3s ease-in-out;
+}
+
+.redes ul li:hover .fa-facebook {
+  color: #4267B2;
+  text-shadow:0 0 3px #4267B2;
+  transition: all 0.3s ease-in-out;
+}
+
+/* YOUTUBE */
+.redes ul li:hover.youtube {
+  border: 3px solid #FF0000;
+  box-shadow:0 0 7px #FF0000;
+  transition: all 0.3s ease-in-out;
+}
+
+.redes ul li:hover .fa-youtube {
+  color: #FF0000;
+  text-shadow:0 0 3px #FF0000;
+  transition: all 0.3s ease-in-out;
+}
+  
+
+

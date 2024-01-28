@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aromas en la mesa</title>
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/21e9116f24.js" crossorigin="anonymous"></script>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="media/imagotipo.png" alt="Logo de la empresa" class="logo">
+        </nav>
+    </header>
+
+    <main>
+        <div class="inputSearch">
+            <form class="form" id="form">
+                <button>
+                    <svg width="31" height="20" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="search" viewBox="0 0 17 17">
+                        <path d="M7.667 12.667A5.333 5.333 0 107.667 2a5.333 5.333 0 000 10.667zM14.334 14l-2.9-2.9" stroke="currentColor" stroke-width="1.333" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </button>
+                <input class="input" placeholder="Search a meal, an ingredient..." required="" type="text" id="input" autocomplete="off">
+                <button class="reset" type="reset">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+                <input type="submit" value="Go" id="submit" class="submit">
+            </form>
+        </div>
+
+        <div class="destacados"></div>
+
+        <div class="resultados" id="resultados"></div>
+
+        <div class="selectedRecipe" id="selectedRecipe"></div>
+           
+       <footer>
+        <div class="infoMarca">
+            <img src="media/imagotipo.png" alt="Logo de la empresa" class="logoFooter">
+            <p>Copyright &copy; 2024 Lorenzo Rossi</p>
+        </div>
+
+        <div class="redes">
+
+            <ul>
+                <li class="instagram"><a href=""><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+                <li class="twitter"><a href=""><i class="fa-brands fa-twitter fa-2x"></i></a></li>
+                <li class="facebook"><a href=""><i class="fa-brands fa-facebook fa-2x"></i></a></li>
+                <li class="youtube"><a href=""><i class="fa-brands fa-youtube fa-2x"></i></i></a></li>
+            </ul>
+            
+ 
+            
+        </div>
+       </footer>
+
+        
+        
+    </main>
+
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
